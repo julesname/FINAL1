@@ -1,0 +1,9 @@
+mlflow
+streamlit
+pandas
+numpy
+Pillow
+matplotlib
+seaborn
+scikit-learn==1.2.2
+codecarbon
