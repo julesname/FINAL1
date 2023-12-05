@@ -225,6 +225,10 @@ if app_mode == "Analysis":
   st.markdown("1. Risk of heart attack is highest between 41 and 59 years of age, according to this data set.")
 
 
+  st.title("IMPROVING THE MODEL")
+  st.markdown("Our model only has a little over 300 different cases.  Additionally, all these cases are from the same city - Cleveland, Ohio. The American Fitness Index ranks Cleveland, Ohio as the 5th worst city in the US for heart health. Furthermore, O2 Saturation in the patients blood has been excluded from this list due to a formatting corruption in the dataset.")
+  st.markdown("These points lead to some of our analysis seeming off, such as the fact that after a certain point in one’s fifties, heart attacks are less likely. If we wanted to improve our dataset, we would want to have more data to use, data from a wider range of places, and a comprehensive list of heart health-related factors.")
+
 if app_mode == "CLICK":
   image_joke = Image.open('thatsallfolks.jpg')
   st.image(image_joke, width=750)
