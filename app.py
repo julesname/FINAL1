@@ -57,6 +57,8 @@ if app_mode == 'Introduction':
   #image
   image_heart = Image.open('heartclipart2.png')
   st.image(image_heart, width=250)
+  st.title("Application Uses")
+  st.write("This application takes many factors into account and returns a binary value for “at risk” or “not at risk” for a heart attack. This technology would be very beneficial for cardiology offices trying to run preliminary tests to find out if patients are in danger or not.")
 
 if app_mode == "Visualization":
   st.markdown("# :red[Visualization]")
